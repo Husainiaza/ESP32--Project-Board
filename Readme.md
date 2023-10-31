@@ -2,7 +2,6 @@
 # ESP32 - Project Board
 
 Rekabentuk Project IoT
-
 ![2023-08 Penggunaan IoT Template Arduino 2](https://github.com/Husainiaza/ESP32--Project-Board/assets/148662620/a832ba80-9417-4f5b-b331-76d945982a0f)
 ## Rujukan Pin
 #### Jadual
