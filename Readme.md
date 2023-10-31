@@ -24,7 +24,7 @@ Jadual PIN Sambungan GPIO
 | Serial Tx |  `17`         | **Serial Port/ Finger Print** |
 | I2C (SDA) |  `21`         | **I2C**         |
 | I2C (SCL) |  `22`         | **I2C**         |
-| RFID (SDA, SCK ,MOSI,MISO,RST))     |  `4,18,23,19,5`  | **I2C**         |
+| RFID (SDA, SCK ,MOSI,MISO,RST))     |  `4,18,23,19,5`  | **MFRC-522 only**         |
 | P10      |  `22,21,19,18,2,23`  | **P10**         |
 
 
