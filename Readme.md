@@ -6,7 +6,7 @@ Rekabentuk Project IoT
 ![2023-08 Penggunaan IoT Template Arduino 2](https://github.com/Husainiaza/ESP32--Project-Board/assets/148662620/a832ba80-9417-4f5b-b331-76d945982a0f)
 
 
-## Jadual Rujukan Pin
+## Rujukan Pin
 
 #### Jadual
 
@@ -14,14 +14,19 @@ Rekabentuk Project IoT
 Jadual PIN Sambungan GPIO
 ```
 
-| Input     | Nombor GPIO Pin     | Aktuator/Sensor      |
-| :-------- | :-------            | :------------------- |
-| Motor A1  |  `17`               | **Motor A DC Kiri**  |
-| Motor A2  |  `12`               | **Motor A DC Kiri**  |
-| Motor B1  |  `18`               | **Motor B DC Kanan** |
-| Motor B2  |  `19`               | **Motor A DC Kanan** |
-| Buzzer    |  `03`               | **Buzzer(bunyi)**    |
-| Trigger   |  `2`                | **Ultrasonic**       |
-| Echo      |  `4`                | **Ultrasonic**       |
+| Input     |  GPIO Pin     | Aktuator/Sensor               |
+| :-------- | :-------      | :------------------    |
+| Relay 1   |  `27`         | **Relay Module 1 **    |
+| Relay 2   |  `26`         | **Relay Module 2**     |
+| Buzzer    |  `25`         | **Motor B DC Kanan**   |
+| Onewire   |  `15`         | **DHT11/Dallas 18D20** |
+| Serial Rx |  `16`         | **Buzzer(bunyi)**      |
+| Serial Tx |  `17`         | **Serial Port/ Finger Print** |
+| I2C (SDA) |  `21`         | **I2C**         |
+| I2C (SCL) |  `22`         | **I2C**         |
+| RFID (SDA, SCK ,MOSI,MISO,RST))     |  `4,18,23,19,5`  | **I2C**         |
+| P10      |  `22,21,19,18,2,23`  | **P10**         |
+
+
 
 
