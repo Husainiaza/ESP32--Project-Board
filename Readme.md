@@ -11,17 +11,16 @@ Rekabentuk Project IoT
 #### Jadual
 
 ```http
-Jadual PIN Sambungan GPIO
+Jadual Sambungan PIN GPIO
 ```
-
 | Input     |  GPIO Pin     | Aktuator/Sensor               |
 | :-------- | :-------      | :------------------    |
 | Relay 1   |  `27`         | **Relay Module 1 **    |
 | Relay 2   |  `26`         | **Relay Module 2**     |
 | Buzzer    |  `25`         | **Motor B DC Kanan**   |
 | Onewire   |  `15`         | **DHT11/Dallas 18D20** |
-| Serial Rx |  `16`         | **Buzzer(bunyi)**      |
-| Serial Tx |  `17`         | **Serial Port/ Finger Print** |
+| Serial Rx |  `16`         | **Serial Port**      |
+| Serial Tx |  `17`         | **Serial Port** |
 | I2C (SDA) |  `21`         | **I2C**         |
 | I2C (SCL) |  `22`         | **I2C**         |
 | RFID (SDA, SCK ,MOSI,MISO,RST))     |  `4,18,23,19,5`  | **MFRC-522 only**         |
