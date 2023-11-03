@@ -23,5 +23,7 @@ Jadual Sambungan PIN GPIO
 | P10      |  `22,21,19,18,2,23`  | **P10**         |
 
 
+Board Preparation
 
+Library need to be download
 
