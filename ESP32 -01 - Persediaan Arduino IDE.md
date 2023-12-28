@@ -1,4 +1,4 @@
-ard#  Persediaan memasukkan Bo ESP32 ke dalam Perisian Arduiono 2.x
+#  Persediaan memasukkan Board ESP32 ke dalam Perisian Arduiono 2.x
 
 Langkah 1: Pastikan anda sudah memuatturun perisian Arduino dari laman Web https://www.arduino.cc/en/software  
 
