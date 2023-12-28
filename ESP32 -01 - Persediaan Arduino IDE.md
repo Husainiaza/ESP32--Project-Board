@@ -11,6 +11,6 @@ https://espressif.github.io/arduino-esp32/package_esp32_index.json
 
 ![image1](https://github.com/Husainiaza/ESP32--Project-Board/assets/148662620/569dfafd-9887-49c3-802e-15a9a899d5b4)
 
-LANGKAH 4: Instal ESP32 Board Library ke Aduino IDE - Taip ' ESP32 ' dalam kotak BOARD MANAGER
+Langkah 4: Install ESP32 Board Library ke Aduino IDE - Taip ' ESP32 ' dalam kotak BOARD MANAGER
 
 ![image2](https://github.com/Husainiaza/ESP32--Project-Board/assets/148662620/23b0c486-c77a-483b-a65d-a83145012b68)
