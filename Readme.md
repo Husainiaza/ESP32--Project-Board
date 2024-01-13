@@ -11,7 +11,7 @@ Jadual Sambungan PIN GPIO
 ```
 | Input     |  GPIO Pin     | Aktuator/Sensor               |
 | :-------- | :-------      | :------------------    |
-| Relay 1   |  `27`         | **Relay Module 1 **    |
+| Relay 1   |  `27`         | **Relay Module 1**    |
 | Relay 2   |  `26`         | **Relay Module 2**     |
 | Buzzer    |  `25`         | **Motor B DC Kanan**   |
 | Onewire   |  `15`         | **DHT11/Dallas 18D20** |
