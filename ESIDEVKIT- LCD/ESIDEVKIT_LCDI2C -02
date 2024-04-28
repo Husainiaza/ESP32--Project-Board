@@ -1,0 +1,30 @@
+#include <DallasTemperature.h>
+#include <LiquidCrystal_I2C.h>
+
+//---DS18B20  pin connection---
+
+//---Actuator and Relay  pin connection---
+#define relay01 27 
+#define relay02 26
+#define buzzer  25
+#define DS18B20 15
+
+
+//----ISTIHAR LCD I2C --------------------------------------------------------------
+LiquidCrystal_I2C lcd(0x27,20,2);
+
+
+void setup() {
+  // # --- 1. Istihar digital I/O yang digunakan---
+  pinMode(relay01,OUTPUT);
+  pinMode(relay02,OUTPUT);
+  pinMode(buzzer,OUTPUT);
+
+  //# --- Istihar Library LCD yang digunakan --- 
+  lcd.init();
+  lcd.backlight();
+  lcd.setCursor(0,0);
+  lcd.print("ESP32 - UJI LCD");
+  delay(2000);
+  lcd.clear();
+}
