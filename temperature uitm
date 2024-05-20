@@ -1,0 +1,39 @@
+#include <OneWire.h>
+#include <DallasTemperature.h>
+
+OneWire oneWire(15);
+DallasTemperature sensorSuhu(&oneWire);
+
+float tempC;
+
+void setup() {
+  pinMode(25,OUTPUT);  //--- untuk buzzer
+
+  Serial.begin(115200);
+  Serial.println("Demo bacaan suhu DS18B20");
+  // Start up the library
+  sensorSuhu.begin();
+}
+
+
+void loop() {
+
+ temperature();
+}
+
+void temperature() {
+  sensorSuhu.requestTemperatures();
+  tempC = sensorSuhu.getTempCByIndex(0);
+
+  Serial.print("Bacaan suhu pada sensor DS18B20: ");
+  Serial.println(tempC);
+
+  if (tempC > 30){
+    Serial.println("suhu panas");
+  }
+
+  else {
+    Serial.println("suhu normal");
+  }
+}
+
