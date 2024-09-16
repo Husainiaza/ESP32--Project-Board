@@ -1,5 +1,3 @@
-
-
 #include <OneWire.h>
 #include <DallasTemperature.h>
 #include <SPI.h>
@@ -8,21 +6,18 @@
 #include <WiFi.h>
 #include <PubSubClient.h>
 
-
 //----ISTIHAR GPIO PIN anda kumpulkan disini ---------------------------------------------------------------------------------
-
 
 //---=on board------
 #define oneWireBus 15  //--SENSOR SUHU DS18B20
 #define Relay01 27   //relay 1
 #define Relay02 26   // relay 2
 #define buzzer  25     // Buzzer
+
 //--- device/sensor OFF board ------
 #define analogSensor1 33
 #define analogSensor2 35
 #define analogSensor3 36
-
-
 //----------------------------------- end -------------------------------------------------------------
 
 
