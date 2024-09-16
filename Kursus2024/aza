@@ -1,0 +1,48 @@
+if (String(topic) == "iotkksj/relay1") {
+    Serial.print("Changing output to ");
+    if(messageTemp == "on"){
+      Serial.println("on");
+      digitalWrite(Relay01,LOW);
+      client.publish("iotkksj/relay1/status", "RELAY 1 ON");
+      display.setCursor(0,40);
+      display.print(" SOCKET 1 ON ");
+      display.display();
+      
+    }
+    else if(messageTemp == "off"){
+      Serial.println("off");
+      digitalWrite(Relay01,HIGH);
+      client.publish("iotkksj/relay1/status", "RELAY 1 OFF");
+      display.setCursor(0,40);
+      display.print(" SOCKET 1 OFF");
+      display.display();
+    }
+  }
+
+ if (String(topic) == "iotkksj/relay2") {
+    Serial.print("Changing output to ");
+    if(messageTemp == "on"){
+      Serial.println("on");
+      digitalWrite(Relay02,LOW);
+      client.publish("iotkksj/relay2/status", "RELAY 2 ON");
+    }
+    else if(messageTemp == "off"){
+      Serial.println("off");
+      digitalWrite(Relay02,HIGH);
+       client.publish("iotkksj/relay2/status", "RELAY 2 OFF");
+    }
+  }
+
+   if (String(topic) == "iotkksj/buzzer") {
+    Serial.print("Changing output to ");
+    if(messageTemp == "on"){
+      Serial.println("on");
+      digitalWrite(buzzer,HIGH);
+      client.publish("iotkksj/buzzer/status", "RELAY 2 ON");
+    }
+    else if(messageTemp == "off"){
+      Serial.println("off");
+      digitalWrite(buzzer,LOW);
+      client.publish("iotkksj/buzzer/status", "RELAY 2 OFF");
+    }
+  }
