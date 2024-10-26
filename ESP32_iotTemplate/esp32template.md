@@ -17,7 +17,7 @@
             Serial.print(tempC);    // print the temperature in °C
             Serial.print("°C");
 
-            dtostrf(dataVar, 1, 2, varPotString);
+            dtostrf(tempC, 1, 2, varPotString);
             client.publish("husaini/suhu", varPotString);
 
 ````
